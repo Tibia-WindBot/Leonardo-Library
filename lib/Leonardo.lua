@@ -1,12 +1,12 @@
 --[[
 	Leonardo's Library
 	Created: 15/01/2014
-	Version: 1.6.1
-	Updated: 27/09/2015
+	Version: 1.6.2
+	Updated: 13/12/2015
 
 	Last Changelog:
 
-	Fixed isontemple
+	Fixed withdrawitems
 
 --]]
 
@@ -14,7 +14,7 @@
 -- GLOBALS AND LOCAL VARIABLES
 
 LIBS = LIBS or {}
-LIBS.LEONARDO = "1.6.1"
+LIBS.LEONARDO = "1.6.2"
 
 POLICY_NONE = 'None'
 POLICY_CAVEBOT = 'Cavebot'
