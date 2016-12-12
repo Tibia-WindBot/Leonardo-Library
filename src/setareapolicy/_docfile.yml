@@ -1,0 +1,10 @@
+---
+name: setareapolicy
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: name
+  - type: string
+    name: policy
+  description: Sets the policy of a special area.

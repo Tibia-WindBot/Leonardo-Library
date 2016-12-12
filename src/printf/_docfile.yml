@@ -1,0 +1,10 @@
+---
+name: printf
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: pattern
+  - type: various
+    name: arguments...
+  description: Same as print function but can receive string format pattern.

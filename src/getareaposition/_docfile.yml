@@ -1,0 +1,8 @@
+---
+name: getareaposition
+invocations:
+- rettype: table
+  args:
+  - type: string
+    name: name
+  description: Returns the coordinates of a special area.

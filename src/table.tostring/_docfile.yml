@@ -1,0 +1,23 @@
+---
+name: table.tostring
+invocations:
+- rettype: string
+  args:
+  - type: table
+    name: tbl
+  - type: string
+    name: separator
+    optional: true
+  description: Converts a table to a string variation exactly how the table is.
+- rettype: string
+  args:
+  - type: table
+    name: tbl
+  - type: string
+    name: name
+    optional: true
+  - type: string
+    name: separator
+    optional: true
+  description: Converts a table to a string variation exactly how the table is. If
+    the <i>name<i> is given it'll return a string as "name = {...}

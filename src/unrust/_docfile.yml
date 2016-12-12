@@ -1,0 +1,18 @@
+---
+name: unrust
+deprecated: true
+invocations:
+- rettype: 
+  args:
+  - type: bool
+    name: ignorecommon
+    optional: true
+  - type: bool
+    name: droptrash
+    optional: true
+  - type: number
+    name: value
+    optional: true
+  description: Uses rust remover on all the valid rust items found. If <i>ignorecommon</i>
+    is given it'll avoid using on common items. If <i>droptrash</i> is given it'll
+    drop items worthless than the <i>value</i> parameter.

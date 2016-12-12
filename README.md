@@ -1,4 +1,3 @@
-Leonardo Library
-============
+# Leonardo Library
 
-Library files for WindBot.
+Leonardo's library builder for WindBot.

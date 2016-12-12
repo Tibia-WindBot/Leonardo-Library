@@ -1,0 +1,8 @@
+---
+name: getareasize
+invocations:
+- rettype: table
+  args:
+  - type: string
+    name: name
+  description: Returns the width and height of a special area.

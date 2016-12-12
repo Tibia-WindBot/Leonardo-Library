@@ -1,0 +1,10 @@
+---
+name: setareatype
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: name
+  - type: string
+    name: type
+  description: Sets the type of a special area.

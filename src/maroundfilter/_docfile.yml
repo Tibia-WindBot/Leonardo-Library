@@ -1,0 +1,18 @@
+---
+name: maroundfilter
+invocations:
+- rettype: number
+  args:
+  - type: number
+    name: range
+  - type: bool
+    name: floor
+    optional: true
+  - type: string
+    name: name¹, name², ..., name*
+    optional: true
+  - type: function
+    name: filter
+    optional: true
+  description: Returns the amount of monsters found in the <i>range</i> distance.
+    Optionally you can add a function to <i>filter</i> the amount of creatures found.

@@ -1,0 +1,15 @@
+---
+name: setareasize
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: name
+  - type: number
+    name: width
+    optional: true
+  - type: number
+    name: height
+    optional: true
+  description: Sets the width and height for a special area, if sizes are not given,
+    sets an area of 1x1.

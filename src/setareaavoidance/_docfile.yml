@@ -1,0 +1,12 @@
+---
+name: setareaavoidance
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: name
+  - type: number
+    name: avoidance
+    optional: true
+  description: Sets the avoidance for a special area. If avoidance is not given, sets
+    it to 0.

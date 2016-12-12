@@ -1,0 +1,10 @@
+---
+name: setareacomment
+invocations:
+- rettype: 
+  args:
+  - type: string
+    name: name
+  - type: string
+    name: comment
+  description: Sets the commentary for a special area.

@@ -1,0 +1,8 @@
+---
+name: getareaavoidance
+invocations:
+- rettype: number
+  args:
+  - type: string
+    name: name
+  description: Returns the avoidance of a special area.

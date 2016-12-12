@@ -1,0 +1,6 @@
+---
+name: isontemple
+invocations:
+- rettype: boolean
+  args: []
+  description: Returns true if you are located inside a temple, false otherwise.

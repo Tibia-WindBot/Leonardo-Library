@@ -1,0 +1,11 @@
+---
+name: formattime
+invocations:
+- rettype: string
+  args:
+  - type: number
+    name: seconds
+  - type: string
+    name: pattern
+    optional: true
+  description: Formats the seconds given into a date/hour string.

@@ -1,0 +1,6 @@
+---
+name: pvpworld
+invocations:
+- rettype: boolean
+  args: []
+  description: Returns true if you are in a player versus player world, false otherwise.
