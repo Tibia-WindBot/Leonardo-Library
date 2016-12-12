@@ -1,23 +1,21 @@
 {
-	"name": "setareasize",
-	"invocations": [
-		{
-			"rettype": null,
-			"args": [
-				{
-					"type": "string",
-					"name": "name"
-				},
-				{
-					"type": "optional number",
-					"name": "width"
-				},
-				{
-					"type": "optional number",
-					"name": "height"
-				}
-			],
-			"description": "Sets the width and height for a special area, if sizes are not given, sets an area of 1x1."
-		}
-	]
+  "name": "setareasize",
+  "invocations": [
+  {
+    "rettype": null,
+    "args": [
+    {
+      "type": "string",
+      "name": "name"
+    },
+    {
+      "type": "optional number",
+      "name": "width"
+    },
+    {
+      "type": "optional number",
+      "name": "height"
+    }],
+    "description": "Sets the width and height for a special area, if sizes are not given, sets an area of 1x1."
+  }]
 }

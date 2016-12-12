@@ -1,15 +1,13 @@
 {
-	"name": "getareapolicy",
-	"invocations": [
-		{
-			"rettype": "string",
-			"args": [
-				{
-					"type": "string",
-					"name": "name"
-				}
-			],
-			"description": "Gets the policy of a special area."
-		}
-	]
+  "name": "getareapolicy",
+  "invocations": [
+  {
+    "rettype": "string",
+    "args": [
+    {
+      "type": "string",
+      "name": "name"
+    }],
+    "description": "Gets the policy of a special area."
+  }]
 }

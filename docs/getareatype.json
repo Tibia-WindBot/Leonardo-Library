@@ -1,5 +1,5 @@
 {
-  "name": "getareacomment",
+  "name": "getareatype",
   "invocations": [
   {
     "rettype": "string",
@@ -8,6 +8,6 @@
       "type": "string",
       "name": "name"
     }],
-    "description": "Gets the commentary of a special area."
+    "description": "Returns the type of a special area as 'Square (Filled)' or 'Square (Border Only)'."
   }]
 }

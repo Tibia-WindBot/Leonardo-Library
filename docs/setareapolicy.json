@@ -1,5 +1,5 @@
 {
-  "name": "setareacomment",
+  "name": "setareapolicy",
   "invocations": [
   {
     "rettype": null,
@@ -10,8 +10,8 @@
     },
     {
       "type": "string",
-      "name": "comment"
+      "name": "policy"
     }],
-    "description": "Sets the commentary for a special area."
+    "description": "Sets the policy of a special area."
   }]
 }
